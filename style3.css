@@ -1,0 +1,246 @@
+/*-- general rules--*/
+html{ font-size: 18px;
+width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+overflow-x:hidden;}
+
+body {line-height: 1.45em;
+     min-width: 840px;
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+overflow-x:hidden;}
+
+p {text-indent: 50px;
+  font-family: 'Open Sans', sans-serif;}
+/*-- general rules--*/
+
+/*-- header--*/
+header {font-weight: bold;
+        font-size: 1rem;
+        color: rgb(26, 143, 179);
+        text-align: right;
+        background-image: url("https://sumedico.blob.core.windows.net/images/2020/10/27/ganaron.jpg");
+        background-size: cover;
+        background-position: bottom center;}
+/*-- header--*/
+
+/*-- button--*/
+.wrapper{ text-align: center;
+padding-bottom: 45%;}
+
+.button {
+  background: #eb6f6f;
+  background-image: -webkit-linear-gradient(top, #eb886f, #2a81b0);
+  background-image: -moz-linear-gradient(top, #6fc2eb, #2a81b0);
+  background-image: -ms-linear-gradient(top, #6fc2eb, #2a81b0);
+  background-image: -o-linear-gradient(top, #6fc2eb, #2a81b0);
+  background-image: linear-gradient(to bottom, #6fc2eb, #2a81b0);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 1px 2px 5px #666666;
+  -moz-box-shadow: 1px 2px 5px #666666;
+  box-shadow: 1px 2px 5px #666666;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #78b3b3;
+  text-decoration: none;
+}
+/*-- button--*/
+
+/*-- nav--*/
+
+nav{margin-bottom: 0%;
+}
+
+.nav{background-color:#c3d0d6;
+     padding-bottom:2%;
+     padding-top:2%;
+     width:100%;}
+
+nav ul li {
+  display: inline;
+  padding: 0.3em;
+  color: white;
+  border: none;
+  margin: 20px;
+font-family: 'Chewy', cursive;}
+
+a{color:black;
+ text-decoration:none;}
+
+nav ul li a:hover {font-size:150%;
+  cursor:url(http://www.zingerbug.com/cursors/cursors/paws1.gif), auto;
+color:rgb(0, 174, 255);}
+/*-- nav--*/
+
+/*-- heading rules--*/
+h1 {color: black;
+   text-align: center;
+  font-size: 3.375rem;
+  font-family: 'Chewy', cursive;
+   line-height: 1em;
+  width: 90%;
+  padding: 1rem;
+  margin-top: 9%;}
+
+h2{color: rgb(19, 126, 158);
+   text-align: center;
+  font-family: 'Chewy', cursive;
+  font-size: 1.5rem;
+   line-height: 1em;
+  font-weight: 300;
+  width: 96%;
+  margin-bottom: 4%;}
+
+h3{color: black;
+   text-align: center;
+   font-size: 2rem;
+   line-height: 1em;
+   font-family: 'Chewy', cursive;
+   font-weight: 300;
+   padding-left: 4%;
+   padding-right: 4%;
+   padding-top: 4%;
+padding-bottom:8%;}
+
+h4{color: black;
+   text-align: right;
+   font-size: 1.5rem;
+   line-height: 1em;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 300;
+   width: 96%;
+   padding-bottom: 5%;
+   padding-top: 5%;}
+
+h5 {font-family: 'Chewy', cursive;
+    text-align:center;
+    font-size: 2.25rem;
+    line-height: 1.5em;}
+
+h6 {font-family: 'Chewy', cursive;
+    text-align:center;
+    font-size: 2.25rem;
+    line-height: 1.5em;}
+/*-- heading rules--*/
+
+#why{ color: black;
+  background-color: #ffffff;
+  width: 42%;
+  padding: 4%;}
+
+.why {background-image: url("https://noticias.utpl.edu.ec/sites/default/files/dale-una-patita.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;}
+
+  .why p{background-color: #ffffff;
+    color: black;
+     width: 42%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 4%;
+    margin-right: 50%;}
+
+.why h5{margin-right: 50%;}
+/*--why--*/
+
+/*--quote--*/
+.quote{background-color:#c3d0d6;
+color:white;
+  width: 100%;
+padding-bottom: 2%;
+  padding-top: 16%;}
+
+.quote p{color: black;
+   text-align: center;
+  font-size: 2rem;
+   line-height: 1em;
+  font-family: 'Chewy', cursive;
+  font-weight: 300;
+  padding-left: 12%;
+  padding-right: 12%;}
+
+/*--where--*/
+.where{background-color:#ffffff;
+color:black;
+width: 100%;
+padding-top: 4%;}
+
+.where p{padding-bottom: 4%;
+padding-left: 12%;
+padding-right: 12%;}
+
+.map{display:block;
+    margin: auto;
+    width: 70%;
+    padding-bottom: 4%;}
+
+.where a:hover{color: red;}
+
+.where a{font-weight: bold;
+font-style: italic;}
+/*--where--*/
+
+/*contact us*/
+.footer {
+  background-color: #7bb0ae;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  width:100%;}
+
+.contactus {
+  color: white;
+  font-family: 'Chewy', cursive;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2em;
+}
+
+.signup {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1em;
+  padding-bottom: 2%;
+}
+
+.email {font-family: 'Open Sans', sans-serif;
+        color: white;
+        font-weight: 700;
+        font-size: 0.618rem;
+        line-height: 1em;
+        padding-bottom: 2%;}
+
+.submit {color:black;
+font-family: 'Open Sans', sans-serif;
+padding-top: 2%;}
+/*contact us*/
+
+/*footer*/
+.colophon ul{list-style-type: circle;
+             margin: auto;
+             width: 100%;
+             color: black;
+             font-family: 'Open Sans', sans-serif;
+             font-size: 1rem;
+             padding-bottom: 5%;
+             padding-left:5%;}
+
+.colophon p{font-family: 'Chewy', cursive;
+            font-size: 1.5rem;
+            line-height: 1.5em;}
+/*footer*/
